@@ -1,0 +1,22 @@
+{
+  "name": "phone-backend-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to turn your Android phone into a backend server",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "phone-backend": "./bin/phone-backend.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["backend", "phone", "android", "server", "api", "termux"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.7.5",
+    "firebase": "^10.13.2",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  }
+}
